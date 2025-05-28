@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  /* border: 1px solid red; */
+}
+
+html,body{
+  background-color: #00002E;
+  color: #ffffff;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* border:2px solid red; */
+}
+.flexy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.naviFlexy{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlis{
+  cursor:pointer; 
+
+}
+.navlis:hover{
+  color: #9edcf2;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
