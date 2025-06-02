@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <section className='section min-h-[calc(100vh-80px)] px-4 sm:px-6 md:px-10 lg:px-16 items-center'>
         <div className="w-[280px] h-[612px] md:w-[764px] md:h-[464px] lg:w-[1137px] lg:h-[464px] flex flex-col md:flex-row md:items-center justify-center text-white">
-            <div className='order-1 md:order-2 w-full md:w-1/2 flex justify-center items-centerhidden' >
-                <img src="/finance-image.png" alt="finance Illustration" className='w-[200px] md:w-[350px] lg:w-[400px] h-auto' />
+            <div className='order-1 md:order-2 w-full md:w-1/2 flex justify-center items-center'>
+                <img src="/finance-image.png" alt="finance Illustration"  className='w-[200px] md:w-[350px] lg:w-[400px] h-auto' />
             </div>
             <div className='order-2 md:order-1 w-full md:w-1/2  '>                
                 <h1 className='text-4xl md:text-[55px] lg:text-[83px] color-white font-bold my-5 leading-none'>Take Control of Your Finances</h1>
